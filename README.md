@@ -9,4 +9,4 @@ To ensure each output can be analysed effectively, I will make sure the system r
 - Fixed Time Signature : Each melody will be in 4/4
 - Fixed Note Durations : Notes will be only crotchets (quarter notes) and quavers (eighth notes)
 - Fixed Pitch Range : MIDI range from C3 - C5
-- Pitch Selection : Notes are limited to specific scales (Major / Minor (natural, harmonic, melodic) / Pentatonic)
+
