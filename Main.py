@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 keys = ["C", "D", "E", "F", "G", "A", "B", "C#", "D#", "F#", "G#", "A#"]
 def generate_analyse(scale_name,step_prob,seed,key_name,write_midi=True,verbose=True):
     random.seed(seed)
+    
     # ================#
     # MIDI GENERATOR #
     # ================#
@@ -130,6 +131,11 @@ def generate_analyse(scale_name,step_prob,seed,key_name,write_midi=True,verbose=
     return step_ratio, mean_interval
 
 def gui():
+    
+    #=====#
+    # GUI #
+    #=====#
+    
     main = tk.Tk()
     main.title("Melodic Generator Controller")
 
@@ -241,4 +247,5 @@ for scale_name in scales:
         results[scale_name].append(avg_ratio)
 
 gui()
+
 
