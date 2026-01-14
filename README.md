@@ -4,7 +4,7 @@ I have created a project which aims to explore the relationship between probabil
 
 **Requirements:**
 
-- PIPS (Tkinter, music21, matplotlib)
+- PIPs (Tkinter, music21, matplotlib)
 - Python 3.13 or above
 
 **Constraints:**
